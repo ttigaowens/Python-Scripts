@@ -1,5 +1,7 @@
 import os
 
+##This is a dumb script to delete user profiles from a Citrix server
+
 exempt = ["Public", "Default", ".NET", "All"]
 
 for d in os.listdir('c:\\users\\'):
